@@ -1,5 +1,4 @@
 import { viteBundler } from "@vuepress/bundler-vite";
-import { searchPlugin } from "@vuepress/plugin-search";
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 
@@ -18,16 +17,5 @@ export default defineUserConfig({
     ["meta", { name: "apple-mobile-web-app-status-bar-style", content: "black" }]
   ],
   theme,
-  plugins: [
-    searchPlugin({
-      locales: {
-        "/": {
-          placeholder: "搜索文档"
-        }
-      },
-      hotKeys: ["s", "/"],
-      maxSuggestions: 10
-    })
-  ],
   bundler: viteBundler()
 });

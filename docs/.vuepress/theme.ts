@@ -29,6 +29,14 @@ export default hopeTheme({
   footer: "ImageStudio Documentation",
   displayFooter: true,
   plugins: {
+    search: {
+      locales: {
+        "/": {
+          placeholder: "搜索文档"
+        }
+      },
+      maxSuggestions: 10
+    },
     mdEnhance: {
       align: true,
       attrs: true,

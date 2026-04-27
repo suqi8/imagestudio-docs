@@ -4,3 +4,13 @@ node_modules/
 docs/.vuepress/.cache/
 docs/.vuepress/.temp/
 docs/.vuepress/dist/
+dist/
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.pnpm-store/
+.env
+.env.*
+!.env.example
