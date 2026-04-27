@@ -1,0 +1,28 @@
+:root {
+  --vp-c-accent: #6c63ff;
+  --vp-c-accent-bg: #6c63ff;
+  --vp-c-accent-hover: #5b56df;
+  --vp-c-accent-text: #ffffff;
+  --vp-c-bg-soft: #f7f7ff;
+}
+
+[data-theme="dark"] {
+  --vp-c-accent: #8b5cf6;
+  --vp-c-accent-bg: #8b5cf6;
+  --vp-c-accent-hover: #9d72ff;
+}
+
+.vp-hero-image {
+  filter: drop-shadow(0 20px 40px rgba(108, 99, 255, 0.28));
+}
+
+.vp-feature {
+  border-radius: 20px;
+}
+
+.vp-page-title,
+.theme-hope-content h1,
+.theme-hope-content h2,
+.theme-hope-content h3 {
+  scroll-margin-top: 80px;
+}
